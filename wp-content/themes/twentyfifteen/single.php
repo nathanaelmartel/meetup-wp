@@ -1,8 +1,7 @@
 <?php
 /**
  * The template for displaying all single posts and attachments
- *
- * @package WordPress
+ *yx.ky.xkauie
  * @subpackage Twenty_Fifteen
  * @since Twenty Fifteen 1.0
  */
