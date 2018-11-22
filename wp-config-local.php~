@@ -1,0 +1,16 @@
+<?php
+
+
+
+if (($_SERVER['SERVER_NAME'] == '')) {
+} else {
+	define('WP_AUTO_UPDATE_CORE', true );
+	define('WP_DEBUG', true);
+	define('DB_NAME', 'wordpress.local');
+	define('DB_USER', 'root');
+	define('DB_PASSWORD', '100282');
+	define('DB_HOST', 'localhost');
+	define('DB_CHARSET', 'utf8');
+	define('DB_COLLATE', '');
+  define('WP_MEMORY_LIMIT', '96M');
+}
